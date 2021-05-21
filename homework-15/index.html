@@ -17,7 +17,7 @@
                 <span>Stas Phonechecker</span>
             </div>
             <nav class="nav">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="index.html">Home</a>
                 <a class="nav-link" href="#">About</a>
                 <a class="nav-link" href="#">Blog</a>
                 <a class="nav-link" href="#">Contact Us</a>
@@ -25,7 +25,7 @@
         </header>
         <main>
             <div class="container w-50 mt-5 border border-dark shadow p-3 mb-5 bg-body rounded">
-                <div class="form-group p-5">
+                <div class="forma p-5">
                     <label for="phone">Please, enter your phone number *</label>
                     <input 
                         type="text"
@@ -33,12 +33,16 @@
                         id="phone" 
                         placeholder="For examle: +380123456789"
                         required
-                        pattern="^\+380[0-9]{9}$|\+38\(0[0-9]{2}\)[0-9]{7}$|\+38\(0[0-9]{2}\)[0-9]{3}\-[0-9]{2}\-[0-9]{2}$"
+                        pattern="^\+380[0-9]{9}|\+38\(0[0-9]{2}\)[0-9]{7}|\+38\(0[0-9]{2}\)[0-9]{3}\-[0-9]{2}\-[0-9]{2}$"
+                        
+                        
+
                     />
-                    <small class="form-text text-muted">
+                    <!-- ^\+380[0-9]{9}|\+38\(0[0-9]{2}\)[0-9]{7}|\+38\(0[0-9]{2}\)[0-9]{3}\-[0-9]{2}\-[0-9]{2}$ -->
+                    <small class="required text-muted">
                         * This field is required.
                     </small>
-                    <small class="form-text text-success valid-label">
+                    <small class="correct text-success">
                         The field is filled out correctly.
                     </small>
                     <div class="d-grid gap-2  mx-auto mt-4">
@@ -49,6 +53,7 @@
                     </div> -->
                 </div>
             </div>
+            <a class="btn btn-primary second-page" href="alternative.html" role="button">Alternative Page</a>
         </main>
     </div>
 </body>
