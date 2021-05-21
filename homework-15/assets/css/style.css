@@ -11,6 +11,10 @@ input:valid + small {
     display: none;
 }
 
+.second-page {
+    margin-left: 45%;
+}
+
 /* .pic {
     display: none;
     margin-left: 35%;
