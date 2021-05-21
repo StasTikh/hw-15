@@ -1,0 +1,22 @@
+small + small {
+    display: none;
+}
+
+
+input:valid + small + small {
+    display: inline;
+}
+
+input:valid + small {
+    display: none;
+}
+
+/* .pic {
+    display: none;
+    margin-left: 35%;
+    margin-top: 35px;
+}
+
+button:active + .pic {
+    display: block;
+} */
